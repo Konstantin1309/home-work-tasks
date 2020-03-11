@@ -16,7 +16,7 @@ public class CheckPassFailTest {
 
     @Test
     public void checkFailTest() {
-        int mark = 5;
+        int mark = 15;
 
         assertEquals(passFailChecker.checkNumber(mark), "FAIL");
     }
