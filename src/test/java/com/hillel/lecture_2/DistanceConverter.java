@@ -10,7 +10,7 @@ public class DistanceConverter {
     @Step
     public double metersToInches(double meters) {
 //        TODO implements result
-        double result = (meters * 100) * 0.39;
+        double result = (meters * 100.00) * 0.39;
         return result;
     }
 

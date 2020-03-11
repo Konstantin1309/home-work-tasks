@@ -11,7 +11,7 @@ public class FormulasTestTask {
 
     private Formulas formulas = new Formulas();
 
-    @Test
+    @Test//+
     public void formula9Test() {
         double x = 25;
         double expectedResult = 0.47091985615225695;

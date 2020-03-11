@@ -11,7 +11,7 @@ public class Formulas {
     public double calculate9Formula(double x) {
         double a = 1.1 * Math.pow(Math.E, -x);
         double b = Math.abs(Math.cos (Math.sqrt(Math.PI * x)));
-        double result = (a + b) - (3 / 8);
+        double result = (a + b) - (3.0 / 8.0);
 //        TODO implement formula 9
         return result;
 
