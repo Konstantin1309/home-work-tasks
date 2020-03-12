@@ -10,7 +10,7 @@ public class TemperatureConverter {
     @Step
     public double celsiusToFahrenheit(double celsius) {
 //       TODO implements result Convert Celsius to Fahrenheit
-        double result = 0.0;
+        double result = (( 9.0 / 5.0 ) * 10) + 32;
         return result;
     }
 

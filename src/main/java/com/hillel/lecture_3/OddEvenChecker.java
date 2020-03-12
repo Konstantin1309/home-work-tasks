@@ -14,9 +14,15 @@ public class OddEvenChecker {
         String result = "";
 
         if ( number % 2 == 0 ) {
-            return result;
+            result = "Even Number";
+            System.out.println("Even Number");
         } else {
-            return result;
+            result = "Odd Number";
+            System.out.println("Odd Number");
         }
+
+        System.out.println("BYE");
+
+        return result;
     }
 }
